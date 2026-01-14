@@ -31,7 +31,7 @@ const defaultOptions = {
         title: "Connect 4",
         color: colors.blurple,
     },
-    winMessage: (res: Connect4Result) => `${res.winnerEmoji} | **${res.winner}** won the TicTacToe Game.`,
+    winMessage: (res: Connect4Result) => `${res.winnerEmoji} | **${res.winner}** won the Connect 4 Game.`,
     tieMessage: () => "The Game tied! No one won the Game!",
     timeoutMessage: () => "The Game went unfinished! No one won the Game!",
     turnMessage: (turn: Connect4Turn) => `${turn.emoji} | It's player **${turn.player.displayName}**'s turn.`,
