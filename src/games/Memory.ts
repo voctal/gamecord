@@ -186,8 +186,10 @@ export class Memory extends Game<MemoryResult> {
         });
 
         try {
-            for (const btn of this.components[0].components) {
-                btn.setDisabled(true);
+            for (const row of this.components) {
+                for (const btn of row.components) {
+                    btn.setDisabled(true);
+                }
             }
 
             await this.editContextOrMessage(message, {
