@@ -3,10 +3,10 @@
     <h1>Gamecord</h1>
     <br />
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/gamecord"><img src="https://img.shields.io/npm/v/@sodiumlabs/gamecord.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/gamecord"><img src="https://img.shields.io/npm/dt/@sodiumlabs/gamecord.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/gamecord/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/gamecord?logo=github&logoColor=ffffff" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/gamecord"><img src="https://img.shields.io/npm/v/@voctal/gamecord.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/gamecord"><img src="https://img.shields.io/npm/dt/@voctal/gamecord.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/gamecord/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/gamecord?logo=github&logoColor=ffffff" /></a>
     </p>
 </div>
 
@@ -20,22 +20,22 @@ The module supports both slash commands and message commands!
 
 ## Installation
 
-Node.js 18 or newer is required.
+Node.js 22 or newer is required.
 
 ```sh
-npm install @sodiumlabs/gamecord
+npm install @voctal/gamecord
 ```
 
 ## Documentation
 
-You can find the docs here: [https://docs.sodiumlabs.xyz/docs/packages/gamecord/stable](https://docs.sodiumlabs.xyz/docs/packages/gamecord/stable)
+You can find the docs here: [https://docs.voctal.dev/docs/packages/gamecord/stable](https://docs.voctal.dev/docs/packages/gamecord/stable)
 
-If you need help, ask on our [support server](https://discord.gg/8PDXWSHH7k).
+If you need help, ask on our [support server](https://voctal.dev/discord).
 
 ## Example usage
 
 ```js
-const { Game2048 } = require("@sodiumlabs/gamecord");
+const { Game2048 } = require("@voctal/gamecord");
 
 const game = new Game2048(interaction, {
     embed: {
@@ -81,12 +81,12 @@ Note: every embeds can be fully customized.
 
 ## Links
 
-- [Documentation](https://docs.sodiumlabs.xyz/docs/packages/gdapi/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/gamecord)
-- [npm](https://npmjs.com/package/@sodiumlabs/gamecord)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Documentation](https://docs.voctal.dev/docs/packages/gdapi/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/gamecord)
+- [npm](https://npmjs.com/package/@voctal/gamecord)
+- [Voctal](https://voctal.dev)
 
 ## Help
 
-You need help with the module? Ask on our [support server!](https://discord.gg/8PDXWSHH7k)
+You need help with the module? Ask on our [support server!](https://voctal.dev/discord)

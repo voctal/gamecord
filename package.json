@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/gamecord",
+    "name": "@voctal/gamecord",
     "version": "1.0.2",
     "description": "Add customizable games to your Discord bot",
     "keywords": [
@@ -13,15 +13,15 @@
         "minigames",
         "typescript"
     ],
-    "homepage": "https://github.com/sodium-labs/gamecord",
+    "homepage": "https://github.com/voctal/gamecord",
     "bugs": {
-        "url": "https://github.com/sodium-labs/gamecord/issues"
+        "url": "https://github.com/voctal/gamecord/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/gamecord.git"
+        "url": "git+https://github.com/voctal/gamecord.git"
     },
     "files": [
         "dist"
