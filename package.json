@@ -13,7 +13,7 @@
         "minigames",
         "typescript"
     ],
-    "homepage": "https://github.com/sodium-labs/gamecord#readme",
+    "homepage": "https://github.com/sodium-labs/gamecord",
     "bugs": {
         "url": "https://github.com/sodium-labs/gamecord/issues"
     },
@@ -42,7 +42,7 @@
         }
     },
     "scripts": {
-        "build": "tsup",
+        "build": "tsdown",
         "build:docs": "tsc -p tsconfig.docs.json",
         "lint": "tsc --noEmit && oxlint && oxfmt --check",
         "fmt": "oxfmt",
@@ -50,17 +50,17 @@
         "docs": "npm run build:docs && api-extractor run --local"
     },
     "dependencies": {
-        "@napi-rs/canvas": "^0.1.86",
-        "zod": "^4.2.1"
+        "@napi-rs/canvas": "^0.1.97",
+        "zod": "^4.3.6"
     },
     "devDependencies": {
-        "@microsoft/api-extractor": "^7.55.2",
-        "@types/node": "^24.10.1",
+        "@microsoft/api-extractor": "^7.57.7",
+        "@types/node": "^25.5.0",
         "discord.js": "^14.25.1",
         "dotenv-cli": "^11.0.0",
-        "oxfmt": "^0.20.0",
-        "oxlint": "^1.35.0",
-        "tsup": "^8.5.1",
+        "oxfmt": "^0.41.0",
+        "oxlint": "^1.56.0",
+        "tsdown": "^0.21.4",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3"
     },
@@ -68,6 +68,6 @@
         "discord.js": "^14.25.1"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=22"
     }
 }
