@@ -1,9 +1,9 @@
-import z from "zod/v4";
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Message, MessageFlags } from "discord.js";
+import z from "zod";
 import { Game, GameContext, GameResult } from "../core/Game";
-import { embedBuilder, gameInteractionMessage, gameMessage, resultMessage } from "../utils/schemas";
 import { colors } from "../utils/constants";
 import { getRandomElement, shuffleArray } from "../utils/random";
+import { embedBuilder, gameInteractionMessage, gameMessage, resultMessage } from "../utils/schemas";
 import {
     Awaitable,
     GameEmbed,

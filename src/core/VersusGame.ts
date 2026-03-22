@@ -1,8 +1,8 @@
-import z from "zod/v4";
 import { ActionRowBuilder, APIEmbed, ButtonBuilder, ButtonStyle, Message, User } from "discord.js";
-import { Game, GameContext, GameResult } from "./Game";
+import z from "zod";
 import { colors } from "../utils/constants";
 import { Awaitable, DeepRequired } from "../utils/types";
+import { Game, GameContext, GameResult } from "./Game";
 
 export interface VersusPlayers {
     player: User;

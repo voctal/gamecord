@@ -1,11 +1,11 @@
-import z from "zod/v4";
 import { Message } from "discord.js";
-import { embedBuilder, resultMessage } from "../utils/schemas";
+import z from "zod";
 import { Game, GameContext, GameResult } from "../core/Game";
-import { colors } from "../utils/constants";
-import { GameEmbed, GameEndEmbed, GameEndMessage } from "../utils/types";
-import { getRandomElement } from "../utils/random";
 import sentences from "../data/fast-type.json";
+import { colors } from "../utils/constants";
+import { getRandomElement } from "../utils/random";
+import { embedBuilder, resultMessage } from "../utils/schemas";
+import { GameEmbed, GameEndEmbed, GameEndMessage } from "../utils/types";
 
 /**
  * The fast type game result.

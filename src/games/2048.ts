@@ -1,11 +1,11 @@
-import z from "zod/v4";
 import { createCanvas } from "@napi-rs/canvas";
 import { ActionRowBuilder, AttachmentBuilder, ButtonBuilder, ButtonStyle, Message, MessageFlags } from "discord.js";
+import z from "zod";
 import { Game, GameContext, GameResult } from "../core/Game";
-import { moveInDirection, getOppositeDirection } from "../utils/games";
-import { embedBuilder, gameInteractionMessage } from "../utils/schemas";
 import { colors } from "../utils/constants";
+import { moveInDirection, getOppositeDirection } from "../utils/games";
 import { getRandomInt } from "../utils/random";
+import { embedBuilder, gameInteractionMessage } from "../utils/schemas";
 import { GameEmbed, GameEndEmbed, GameInteractionMessage, Position } from "../utils/types";
 
 /**

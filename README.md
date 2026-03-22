@@ -48,8 +48,8 @@ const game = new Game2048(interaction, {
         up: "🔼",
         down: "🔽",
         right: "▶️",
-        left: "◀️"
-    }
+        left: "◀️",
+    },
 });
 
 game.on("error", err => console.error("Error!", err));

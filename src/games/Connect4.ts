@@ -1,9 +1,9 @@
-import z from "zod/v4";
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, Message, MessageFlags, User } from "discord.js";
+import z from "zod";
 import { GameContext } from "../core/Game";
 import { VersusGame, VersusGameResult, VersusOptions, versusOptions } from "../core/VersusGame";
-import { embedBuilder, gameInteractionMessage, resultMessage, var2Message } from "../utils/schemas";
 import { colors } from "../utils/constants";
+import { embedBuilder, gameInteractionMessage, resultMessage, var2Message } from "../utils/schemas";
 import { GameEmbed, GameEndEmbed, GameEndMessage, GameInteractionMessage, GameTurnMessage } from "../utils/types";
 
 /**

@@ -1,11 +1,11 @@
-import z from "zod/v4";
 import { createCanvas } from "@napi-rs/canvas";
 import { AttachmentBuilder, Message, MessageCollector } from "discord.js";
+import z from "zod";
 import { Game, GameContext, GameResult } from "../core/Game";
-import { embedBuilder, resultMessage } from "../utils/schemas";
+import words from "../data/wordle.json";
 import { colors } from "../utils/constants";
 import { getRandomElement } from "../utils/random";
-import words from "../data/wordle.json";
+import { embedBuilder, resultMessage } from "../utils/schemas";
 import { GameEmbed, GameEndEmbed, GameEndMessage } from "../utils/types";
 
 /**

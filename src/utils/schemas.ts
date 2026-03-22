@@ -1,6 +1,6 @@
-import z from "zod/v4";
-import { Awaitable } from "./types";
 import { ButtonInteraction } from "discord.js";
+import z from "zod";
+import { Awaitable } from "./types";
 
 /**
  * A discord.js {@link discord.js#APIEmbed | APIEmbed} schema. The `color` property can be an hex string.

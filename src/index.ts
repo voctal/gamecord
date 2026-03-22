@@ -1,3 +1,8 @@
+/**
+ * The package version.
+ */
+export const version: string = __PACKAGE_VERSION__;
+
 export * from "./core/Game";
 export * from "./core/VersusGame";
 
